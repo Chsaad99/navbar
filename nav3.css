@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    
+}
+
+#ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgba(155, 147, 147, 0.363);
+    height: 1000px;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+
+
+}
+
+li a.saad {
+    background-color: aqua;
+}
+
+li a:hover:not(.saad) {
+    background-color: rgb(92, 88, 88);
+    color: white;
+}
+
+#bunty {
+    position: absolute;
+    top: 200px;
+    width:50%;
+    left: 500px;
+    background-color: rgb(109, 109, 160);
+}
